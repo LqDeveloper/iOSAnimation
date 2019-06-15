@@ -20,6 +20,7 @@
 		5ADB6A0722B3E099008D731C /* KeyFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB6A0622B3E099008D731C /* KeyFrameViewController.swift */; };
 		5ADB6A0922B3E45F008D731C /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB6A0822B3E45F008D731C /* GroupViewController.swift */; };
 		5ADB6A0B22B3E797008D731C /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB6A0A22B3E797008D731C /* MyView.swift */; };
+		5AF3B7E322B4C99700C7B9E1 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3B7E222B4C99700C7B9E1 /* TransitionViewController.swift */; };
 		D83A1EA3A25D84B45029A765 /* Pods_iOS____UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DE9A7F4227701EAEFBD35F /* Pods_iOS____UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		5ADB6A0622B3E099008D731C /* KeyFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameViewController.swift; sourceTree = "<group>"; };
 		5ADB6A0822B3E45F008D731C /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		5ADB6A0A22B3E797008D731C /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		5AF3B7E222B4C99700C7B9E1 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
 		73DE9A7F4227701EAEFBD35F /* Pods_iOS____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iOS____UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BA8E3D91CDA7BC6AAD3FB8 /* Pods-iOS动画测试UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS动画测试UITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS动画测试UITests/Pods-iOS动画测试UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7121B200A5B3C9CFD3CBCDC /* Pods_iOS____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_iOS____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 				5ADB6A0622B3E099008D731C /* KeyFrameViewController.swift */,
 				5ADB6A0822B3E45F008D731C /* GroupViewController.swift */,
 				5ADB6A0A22B3E797008D731C /* MyView.swift */,
+				5AF3B7E222B4C99700C7B9E1 /* TransitionViewController.swift */,
 			);
 			path = "iOS动画测试";
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				5ADB6A0B22B3E797008D731C /* MyView.swift in Sources */,
 				5ADB6A0922B3E45F008D731C /* GroupViewController.swift in Sources */,
 				519CE7D222B390DC00F95BDF /* ExplicitViewController.swift in Sources */,
+				5AF3B7E322B4C99700C7B9E1 /* TransitionViewController.swift in Sources */,
 				5ADB6A0522B3D958008D731C /* BasicViewController.swift in Sources */,
 				519CE7D022B390B500F95BDF /* ImplicitViewController.swift in Sources */,
 				5ADB6A0722B3E099008D731C /* KeyFrameViewController.swift in Sources */,

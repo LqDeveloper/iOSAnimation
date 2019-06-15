@@ -253,6 +253,9 @@
                                                 <constraint firstItem="zSe-oy-jmP" firstAttribute="centerX" secondItem="NLm-DS-vpU" secondAttribute="centerX" id="bLl-EJ-RxM"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xeP-fx-0dT" kind="show" id="8V3-w0-6kG"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -316,6 +319,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2kf-Nn-Bdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1941" y="535"/>
+        </scene>
+        <!--Transition View Controller-->
+        <scene sceneID="yEZ-vu-pQs">
+            <objects>
+                <viewController id="xeP-fx-0dT" customClass="TransitionViewController" customModule="iOS动画测试" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I0o-8o-hFi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khc-OK-FB3">
+                                <rect key="frame" x="176" y="194" width="62" height="30"/>
+                                <state key="normal" title="开始动画"/>
+                                <connections>
+                                    <action selector="clickButton:" destination="xeP-fx-0dT" eventType="touchUpInside" id="fj7-3r-2Yw"/>
+                                    <action selector="clickStart:" destination="quc-4B-qcq" eventType="touchUpInside" id="T00-ad-dcQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="khc-OK-FB3" firstAttribute="top" secondItem="eLT-xQ-0r5" secondAttribute="top" constant="106" id="1Zc-2g-vKw"/>
+                            <constraint firstItem="khc-OK-FB3" firstAttribute="centerX" secondItem="eLT-xQ-0r5" secondAttribute="centerX" id="fvp-KF-ltZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eLT-xQ-0r5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wO8-cX-ohf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="1075"/>
         </scene>
         <!--Group View Controller-->
         <scene sceneID="cBs-st-ljC">
